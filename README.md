@@ -27,10 +27,4 @@ This portfolio highlights my growth as a computer-science professional through a
 
 ---
 
-### 3️⃣ (Optional) Algorithm Enhancement
-- **Category:** Algorithms and Data Structures  
-- **Example:** Sorting / filtering logic in SmartStockApp or optimizing Q-Learning reward logic.
-
----
-
 ## 🌐 Repository Structure
