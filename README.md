@@ -1,4 +1,4 @@
-# CS-499 Computer Science Capstone ePortfolio
+# CS-499 Computer Science Capstone ePortfolio  
 
 **Author:** Sanefa Amzad  
 **Program:** B.S. Computer Science – Southern New Hampshire University  
@@ -7,143 +7,146 @@
 
 ---
 
-## 📘 About This Portfolio
+# 🎥 Code Review Video  
 
-This ePortfolio showcases my work for the CS-499 Computer Science Capstone.  
+**Note:**  
+Due to GitHub’s file-size limitations, the code review video is hosted externally.  
+You may view the full presentation using the link below:
+
+👉 **[▶ Watch Code Review Video](https://www.canva.com/design/DAG5JsKCWB8/tH_HyREzp4fAKcLRVDJ8Bw/watch?utm_content=DAG5JsKCWB8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb06792a3cb)**
+
+---
+
+# 🌟 About This Portfolio  
+
+This ePortfolio showcases my work for the **CS-499 Computer Science Capstone**.  
 It highlights my growth as a computer-science professional through a single, fully enhanced artifact:
 
-### 🎯 **TreasureHuntGame (CS-370)**  
+### **TreasureHuntGame (CS-370)**  
 A reinforcement-learning project that I redesigned, optimized, and extended across three enhancement categories:
 
-- **Software design and engineering**  
-- **Algorithms and data structures**  
-- **Databases and persistence**
+- **Software design & engineering**  
+- **Algorithms & data structures**  
+- **Databases & persistence**
 
-The goal of this portfolio is to demonstrate my ability to design, implement, document, and secure real-world software solutions while meeting all five CS-499 program outcomes.
-
----
-
-## 🏆 Featured Artifact: TreasureHuntGame (CS-370)
-
-The TreasureHuntGame began as a simple 1D grid-world reinforcement-learning assignment in CS-370.  
-An agent moves along a series of cells, learning to reach a treasure using Q-learning.
-
-### Original limitations of the project:
-- Contained in a **single Python script**
-- Used only **basic Q-learning logic**
-- **No persistent storage**
-- **Minimal structure**, documentation, or scalability
-
-For the capstone, I transformed this academic prototype into a modular, production-style reinforcement-learning system with clean architecture, efficient algorithms, and full persistent storage.
+The portfolio demonstrates my ability to design, implement, analyze, and secure real-world software solutions while meeting all **five CS-499 program outcomes**.
 
 ---
 
-## 🚀 Capstone Enhancements
+# 🧩 Featured Artifact: TreasureHuntGame (CS-370)
 
-### **1. Software Design & Engineering Enhancement**
+The TreasureHuntGame began as a simple **1D grid-world reinforcement-learning** assignment in CS-370, where an agent learns to reach a treasure using Q-learning.
 
-**Goal:** Refactor the original single-file script into a clean, maintainable, object-oriented architecture.
+### **Original limitations:**
+- Single Python file  
+- Basic Q-learning logic  
+- No persistent storage  
+- Minimal structure  
+- Limited documentation  
 
-#### ✔ Key Changes
-- Introduced modular Python components:
-  - `Agent` – Q-learning policy and updates  
-  - `Environment` – state transitions, rewards, validations  
-  - `GameController` – training loops, hyperparameters, convergence checks  
-  - `DatabaseHandler` – SQLite integration and persistence  
-  - `main.py` – unified execution and experiment runner  
+### **Capstone Objective:**  
+Convert this academic script into a **scalable, production-style reinforcement-learning system** with clean architecture, improved performance, and persistent storage.
+
+---
+
+# 🚀 Capstone Enhancements  
+
+## **1. Software Design & Engineering Enhancement**  
+**Goal:** Refactor the original single-file script into a clean, modular, object-oriented system.
+
+### 🔧 Key Improvements  
+- Created an object-oriented module structure:
+  - `Agent` – learning behavior and Q-updates  
+  - `Environment` – rewards, transitions, and validation  
+  - `GameController` – training loop, hyperparameters, convergence logic  
+  - `DatabaseHandler` – SQLite storage  
+  - `main.py` – program entry point  
 - Applied software engineering principles:
   - Separation of concerns  
-  - Encapsulation and modularity  
+  - Modularity and encapsulation  
   - Improved readability and maintainability  
-  - Structured exception handling and logging  
-
-This enhancement demonstrates my ability to redesign academic or legacy code into a scalable, professional software architecture.
+  - Logging and structured exception handling  
 
 ---
 
-### **2. Algorithms & Data Structures Enhancement**
+## **2. Algorithms & Data Structures Enhancement**  
+**Goal:** Increase training performance and reinforcement-learning stability.
 
-**Goal:** Improve learning efficiency and training performance.
-
-#### ✔ Key Changes
-- Epsilon-greedy decay for adaptive exploration/exploitation  
-- Adaptive learning rate for stability  
+### 🔧 Key Improvements  
+- Implemented **ε-greedy decay**  
+- Added **adaptive learning rate**  
 - Replaced nested loops with **NumPy vectorization**  
-- **Precomputed transitions** for O(1) action lookup  
-- Deterministic seeds for reproducibility  
-- Early stopping based on reward plateaus  
+- Precomputed transitions for **O(1)** lookups  
+- Added deterministic seeds  
+- Early stopping based on reward plateau  
 
-These improvements reduced complexity and produced faster convergence, demonstrating strong algorithmic reasoning and data-structure optimization.
+### ⭐ Result  
+Time complexity improved from **O(E × T × A)** to **O(E × T)**, producing faster and more stable convergence.
 
 ---
 
-### **3. Databases & Persistence Enhancement**
+## **3. Databases & Persistence Enhancement**  
+**Goal:** Add persistent storage for analysis and long-term RL behavior tracking.
 
-**Goal:** Add a full relational storage system for long-term analysis.
-
-#### ✔ Key Changes
-- Integrated a **SQLite database layer**
+### 🔧 Key Improvements  
+- Integrated **SQLite relational database**  
 - Designed tables for:
   - Q-table values  
   - Reward histories  
+  - Episode metrics  
   - Greedy paths  
-  - Episode-level metrics  
 - Implemented:
-  - **Parameterized SQL queries** to prevent injection attacks  
-  - Normalized schema and indexing  
-  - Batch inserts and integrity checks  
+  - **Parameterized SQL queries** (prevents SQL injection)  
+  - Schema normalization and indexing  
+  - Batch inserts  
+  - Data-integrity validation  
   - Structured exception handling  
 
-This turned the project into a persistent, analyzable RL system suitable for real-world experimentation.
+### ⭐ Result  
+A persistent and analyzable machine-learning system suitable for real-world workflows.
 
 ---
 
-## 📚 Mapping to CS-499 Program Outcomes
+# 🎓 Mapping to CS-499 Program Outcomes  
 
-### **1. Collaborative environments**
-- Code review preparation, documentation, and communication of design decisions.
+### **1. Collaborative Environments**  
+Clear documentation, code review preparation, and structured communication of design decisions.
 
-### **2. Professional communication**
-- Code review video, written narratives, and organized ePortfolio content.
+### **2. Professional Communication**  
+Code review video, narratives, and this organized ePortfolio.
 
-### **3. Algorithmic design and evaluation**
-- Optimization of Q-learning, complexity analysis, and data-structure use.
+### **3. Algorithmic Design & Evaluation**  
+Optimization of Q-learning, complexity improvements, and structured RL logic.
 
-### **4. Software engineering techniques**
-- Object-oriented refactor, modular architecture, testing strategy, error handling.
+### **4. Software Engineering Techniques**  
+Object-oriented refactor, modular design, maintainability, scalability.
 
-### **5. Security mindset**
-- Input validation, parameterized SQL queries, and safe data storage practices.
+### **5. Security Mindset**  
+SQL parameterization, input validation, defensive programming, and safe data handling.
 
 ---
 
-## 📂 How to Navigate This Repository
+# 📁 Repository Navigation  
 
-This repository pairs with my live GitHub Pages ePortfolio:
+This repository works together with my GitHub Pages ePortfolio:
 
-🔗 **GitHub Pages:**  
+🔗 **GitHub Pages Site:**  
 https://LunaBelle19.github.io/CS499-ePortfolio/
 
-### Key Files Included
+### 📦 Included Files  
 
-- **`7-1 Final Project Submission.docx`**  
-  Professional self-assessment
+| File | Description |
+|------|-------------|
+| **7-1 Final Project Submission.docx** | Professional self-assessment |
+| **pirate-intelligent-agent.zip** | Enhanced TreasureHuntGame source code |
+| **Amzad_Sanefa_TreasureHuntGame.html** | Original CS-370 artifact |
+| **2-2 Milestone One Code Review.docx** | Code review write-up |
+| **3-2 Enhancement One – Software Engineering.docx** | Narrative |
+| **4-2 Enhancement Two – Algorithms.docx** | Narrative |
+| **5-2 Enhancement Three – Databases.docx** | Narrative |
+| **Code Review Video (external link)** | Canva-hosted presentation |
 
-- **`pirate-intelligent-agent.zip`**  
-  Enhanced TreasureHuntGame (complete project)
-
-- **`Amzad_Sanefa _ TreasureHuntGame (7-3 Submit Project Two).html`**  
-  Original CS-370 artifact
-
-- **Code Review (docx + mp4)**  
-  Analysis and enhancement plan
-
-- **Enhancement Narratives**  
-  - `3-2 Enhancement One – Software Design & Engineering`  
-  - `4-2 Enhancement Two – Algorithms & Data Structures`  
-  - `5-2 Enhancement Three – Databases`  
-
-Together, these materials provide a complete view of my growth as a computer scientist and my ability to design, implement, analyze, and secure computing solutions.
+These files present a full and complete demonstration of my technical growth and capabilities as a computer scientist.
 
 ---
 
