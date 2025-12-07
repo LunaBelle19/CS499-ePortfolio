@@ -132,6 +132,7 @@ This repository works together with my GitHub Pages ePortfolio:
 
 🔗 **GitHub Pages Site:**  
 https://LunaBelle19.github.io/CS499-ePortfolio/
+https://github.com/LunaBelle19/CS499-ePortfolio?tab=readme-ov-file
 
 ### 📦 Included Files  
 
