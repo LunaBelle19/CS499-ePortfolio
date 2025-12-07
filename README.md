@@ -7,146 +7,144 @@
 
 ---
 
-## About This Portfolio
+## 📘 About This Portfolio
 
 This ePortfolio showcases my work for the CS-499 Computer Science Capstone.  
 It highlights my growth as a computer-science professional through a single, fully enhanced artifact:
 
-> **TreasureHuntGame (CS-370)** – a reinforcement-learning project that I redesigned, optimized, and extended across three enhancement categories:
-> - Software design and engineering  
-> - Algorithms and data structures  
-> - Databases and persistence  
+### 🎯 **TreasureHuntGame (CS-370)**  
+A reinforcement-learning project that I redesigned, optimized, and extended across three enhancement categories:
 
-The goal of this portfolio is to demonstrate my ability to design, implement, document, and secure real-world software solutions while meeting the five CS-499 program outcomes.
+- **Software design and engineering**  
+- **Algorithms and data structures**  
+- **Databases and persistence**
 
----
-
-## Featured Artifact: TreasureHuntGame (CS-370)
-
-The **TreasureHuntGame** began as a 1D grid-world reinforcement-learning assignment in CS-370.  
-An agent moves along a line of cells, learning to reach a treasure location using Q-learning.
-
-Originally, the project:
-- Lived in a single Python file
-- Used basic Q-learning logic
-- Stored no persistent data
-- Had limited structure and minimal documentation
-
-For the capstone, I selected this artifact and transformed it into a **modular, production-style reinforcement-learning system** with a focus on clean architecture, algorithmic efficiency, and persistent storage.
+The goal of this portfolio is to demonstrate my ability to design, implement, document, and secure real-world software solutions while meeting all five CS-499 program outcomes.
 
 ---
 
-## Capstone Enhancements
+## 🏆 Featured Artifact: TreasureHuntGame (CS-370)
 
-### 1. Software Design & Engineering Enhancement
+The TreasureHuntGame began as a simple 1D grid-world reinforcement-learning assignment in CS-370.  
+An agent moves along a series of cells, learning to reach a treasure using Q-learning.
+
+### Original limitations of the project:
+- Contained in a **single Python script**
+- Used only **basic Q-learning logic**
+- **No persistent storage**
+- **Minimal structure**, documentation, or scalability
+
+For the capstone, I transformed this academic prototype into a modular, production-style reinforcement-learning system with clean architecture, efficient algorithms, and full persistent storage.
+
+---
+
+## 🚀 Capstone Enhancements
+
+### **1. Software Design & Engineering Enhancement**
 
 **Goal:** Refactor the original single-file script into a clean, maintainable, object-oriented architecture.
 
-**Key Changes:**
-
-- Introduced separate Python modules:
-  - `Agent` – manages Q-learning updates and policy behavior
-  - `Environment` – handles grid size, state transitions, rewards, and validation
-  - `GameController` – coordinates training loops, hyperparameters, and convergence logic
-  - `DatabaseHandler` – manages interaction with a SQLite database
-  - `main.py` – ties all components together and runs experiments
+#### ✔ Key Changes
+- Introduced modular Python components:
+  - `Agent` – Q-learning policy and updates  
+  - `Environment` – state transitions, rewards, validations  
+  - `GameController` – training loops, hyperparameters, convergence checks  
+  - `DatabaseHandler` – SQLite integration and persistence  
+  - `main.py` – unified execution and experiment runner  
 - Applied software engineering principles:
-  - Separation of concerns
-  - Encapsulation and modularity
-  - Improved readability and maintainability
-  - Structured error handling and logging
+  - Separation of concerns  
+  - Encapsulation and modularity  
+  - Improved readability and maintainability  
+  - Structured exception handling and logging  
 
-This enhancement demonstrates my ability to redesign legacy or academic code into a scalable, professional architecture.
-
----
-
-### 2. Algorithms & Data Structures Enhancement
-
-**Goal:** Improve the learning efficiency and performance of the reinforcement-learning agent.
-
-**Key Changes:**
-
-- Implemented **ε-greedy decay** to balance exploration and exploitation
-- Added an **adaptive learning rate** to stabilize training
-- Replaced nested loops with **NumPy vectorization** for faster Q-updates
-- Precomputed valid state transitions for **O(1)** action lookup
-- Introduced **deterministic random seeds** for reproducible experiments
-- Added **early stopping** based on reward plateaus to avoid unnecessary training
-
-These changes improved the effective time complexity of training and produced faster, more stable convergence, showcasing my ability to design and evaluate algorithmic solutions.
+This enhancement demonstrates my ability to redesign academic or legacy code into a scalable, professional software architecture.
 
 ---
 
-### 3. Databases & Persistence Enhancement
+### **2. Algorithms & Data Structures Enhancement**
 
-**Goal:** Turn the project into a persistent, analyzable system using a relational database.
+**Goal:** Improve learning efficiency and training performance.
 
-**Key Changes:**
+#### ✔ Key Changes
+- Epsilon-greedy decay for adaptive exploration/exploitation  
+- Adaptive learning rate for stability  
+- Replaced nested loops with **NumPy vectorization**  
+- **Precomputed transitions** for O(1) action lookup  
+- Deterministic seeds for reproducibility  
+- Early stopping based on reward plateaus  
 
-- Integrated a **SQLite** database layer
-- Designed tables to store:
-  - Q-table values
-  - Reward histories
-  - Greedy paths
-  - Episode-level metrics
+These improvements reduced complexity and produced faster convergence, demonstrating strong algorithmic reasoning and data-structure optimization.
+
+---
+
+### **3. Databases & Persistence Enhancement**
+
+**Goal:** Add a full relational storage system for long-term analysis.
+
+#### ✔ Key Changes
+- Integrated a **SQLite database layer**
+- Designed tables for:
+  - Q-table values  
+  - Reward histories  
+  - Greedy paths  
+  - Episode-level metrics  
 - Implemented:
-  - **Parameterized SQL queries** to prevent injection attacks
-  - Normalized schema and appropriate indexing
-  - Batch inserts and basic integrity checks
-  - Structured exception handling for robustness
+  - **Parameterized SQL queries** to prevent injection attacks  
+  - Normalized schema and indexing  
+  - Batch inserts and integrity checks  
+  - Structured exception handling  
 
-This enhancement demonstrates my understanding of database design, performance, and secure data handling in support of machine-learning workflows.
-
----
-
-## Mapping to CS-499 Program Outcomes
-
-This portfolio demonstrates the five CS-499 course outcomes:
-
-1. **Collaborative environments**  
-   - Clear documentation, code-review preparation, and communication of design decisions.
-
-2. **Professional communication**  
-   - Code review video, written narratives, and this ePortfolio organization tailored to technical and academic audiences.
-
-3. **Algorithmic design and evaluation**  
-   - Optimization of Q-learning, analysis of time complexity, and use of data structures to support constant-time transitions.
-
-4. **Software engineering techniques**  
-   - Object-oriented refactor, modular architecture, reusable components, error handling, and maintainable design.
-
-5. **Security mindset**  
-   - Input validation, parameterized SQL queries (to prevent SQL injection), defensive programming, and attention to safe data storage.
+This turned the project into a persistent, analyzable RL system suitable for real-world experimentation.
 
 ---
 
-## How to Navigate This Repository
+## 📚 Mapping to CS-499 Program Outcomes
 
-This repository is paired with a GitHub Pages site that serves as the visual ePortfolio:
+### **1. Collaborative environments**
+- Code review preparation, documentation, and communication of design decisions.
 
-- **GitHub Pages URL:**  
-  `https://LunaBelle19.github.io/CS499-ePortfolio/`
+### **2. Professional communication**
+- Code review video, written narratives, and organized ePortfolio content.
 
-Key items in this repository:
+### **3. Algorithmic design and evaluation**
+- Optimization of Q-learning, complexity analysis, and data-structure use.
 
-- `7-1 Final Project Submission.docx`  
-  – Full professional self-assessment for the capstone
+### **4. Software engineering techniques**
+- Object-oriented refactor, modular architecture, testing strategy, error handling.
 
-- `pirate-intelligent-agent.zip`  
-  – Enhanced TreasureHuntGame source code (all three enhancements)
-
-- `Amzad_Sanefa _ TreasureHuntGame (7-3 Submit Project Two).html`  
-  – Original CS-370 artifact
-
-- `2-2 Milestone One Code Review.docx` and video  
-  – Code review of the original artifact and planned enhancements
-
-- `3-2 Milestone Two - Enhancement One - Software Design and Engineering.docx`  
-- `4-2 Milestone Three - Enhancement Two - Algorithms and Data Structure.docx`  
-- `5-2 Milestone Four Enhancement Three Databases.docx`  
-  – Narratives describing each enhancement and the course outcomes addressed
-
-Together, these materials present a complete view of my growth as a computer scientist and my ability to design, implement, analyze, and secure computing solutions.
+### **5. Security mindset**
+- Input validation, parameterized SQL queries, and safe data storage practices.
 
 ---
+
+## 📂 How to Navigate This Repository
+
+This repository pairs with my live GitHub Pages ePortfolio:
+
+🔗 **GitHub Pages:**  
+https://LunaBelle19.github.io/CS499-ePortfolio/
+
+### Key Files Included
+
+- **`7-1 Final Project Submission.docx`**  
+  Professional self-assessment
+
+- **`pirate-intelligent-agent.zip`**  
+  Enhanced TreasureHuntGame (complete project)
+
+- **`Amzad_Sanefa _ TreasureHuntGame (7-3 Submit Project Two).html`**  
+  Original CS-370 artifact
+
+- **Code Review (docx + mp4)**  
+  Analysis and enhancement plan
+
+- **Enhancement Narratives**  
+  - `3-2 Enhancement One – Software Design & Engineering`  
+  - `4-2 Enhancement Two – Algorithms & Data Structures`  
+  - `5-2 Enhancement Three – Databases`  
+
+Together, these materials provide a complete view of my growth as a computer scientist and my ability to design, implement, analyze, and secure computing solutions.
+
+---
+
 
